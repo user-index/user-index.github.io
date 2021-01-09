@@ -1,0 +1,33 @@
+body {
+	background-color: #000;
+	color: #f2f2f2;
+	width: 90%;
+	max-width: 1000px;
+	margin: 0 auto;
+	font-family: Arial;
+}
+
+a:link {
+	color: #8527a7;
+}
+
+a:visited {
+	color: #8527a7;
+}
+
+a:hover {
+	color: red;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td, th {
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #170726;
+}

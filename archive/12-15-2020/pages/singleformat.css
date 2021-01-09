@@ -1,0 +1,50 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color:#30012c;
+	color:#fff;
+	width:90%;
+	max-width:1000px;
+	margin:0 auto;
+	font-family:Arial;
+	font-size:16px;
+}
+
+h1, h2 {
+	text-align:center;
+}
+
+.card {
+	width:75%;
+	padding:10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+row:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+a:link {
+	color:#8527a7;
+}
+
+a:visited {
+	color:#8527a7;
+}
+
+a:hover {
+	color:red;
+}
+
+th, td {
+	padding:20px;
+}
+
+tr:nth-child(even) {
+	background-color: #000;
+}
